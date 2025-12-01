@@ -404,5 +404,6 @@ python lightad_mcp_server.py
 
 如有问题，请：
 
-- 🐛 提交 [Issue](https://github.com/BoxiYu/LightAD/issues)
-- 📧 原项目作者邮件联系: boxiyu@link.cuhk.edu.cn
+- 提交 [Issue](https://github.com/BoxiYu/LightAD/issues)
+- 原项目作者邮件联系: boxiyu@link.cuhk.edu.cn
+- MCP封装作者联系:3522236586@qq.com
