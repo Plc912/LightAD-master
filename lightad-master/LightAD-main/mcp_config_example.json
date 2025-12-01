@@ -1,0 +1,46 @@
+{
+  "comment": "LightAD MCP Server 配置示例",
+  "configs": {
+    "cursor_config": {
+      "description": "Cursor 客户端配置（直接连接 SSE URL）",
+      "mcpServers": {
+        "lightad": {
+          "transport": "sse",
+          "url": "http://127.0.0.1:2224/sse",
+          "enabled": true
+        }
+      }
+    },
+    "claude_desktop_config": {
+      "description": "Claude Desktop 配置（命令启动方式）",
+      "mcpServers": {
+        "lightad": {
+          "command": "python",
+          "args": ["E:/software/MCP__Proj/log/lightad-master/lightad-master/LightAD-main/lightad_mcp_server.py"],
+          "env": {
+            "LIGHTAD_MAX_CONCURRENT": "2"
+          },
+          "enabled": true
+        }
+      }
+    },
+    "remote_server_config": {
+      "description": "远程服务器配置（替换 IP 地址）",
+      "mcpServers": {
+        "lightad": {
+          "transport": "sse",
+          "url": "http://your-server-ip:2224/sse",
+          "enabled": true
+        }
+      }
+    }
+  },
+  "usage_notes": [
+    "1. 根据使用的客户端选择对应的配置",
+    "2. Cursor 通常使用 SSE URL 方式",
+    "3. Claude Desktop 偏好命令方式",
+    "4. 远程服务器需要开放 2224 端口",
+    "5. 修改 args 中的路径为实际安装路径"
+  ]
+}
+

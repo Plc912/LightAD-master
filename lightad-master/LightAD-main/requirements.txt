@@ -1,0 +1,12 @@
+scikit-learn
+bayesian-optimization
+distance
+
+numpy==2.3.3
+torch==2.8.0
+torch_train==0.0.3
+argformat==0.0.3
+scikit-learn==1.7.2
+pandas==2.3.2
+fastmcp==2.12.3
+tqdm==4.67.1
