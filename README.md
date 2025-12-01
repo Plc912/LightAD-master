@@ -9,11 +9,11 @@
 
 ## 原作者与MCP封装作者联系邮箱
 
-- **原项目**: https://github.com/BoxiYu/LightAD
-- **Issues**: https://github.com/BoxiYu/LightAD/issues
-- **工具制作作者Email**: boxiyu@link.cuhk.edu.cn
-- **MCP项目：**https://github.com/Plc912/LightAD-master.git
-- **MCP封装作者Emai**l:3522236586@qq.com
+- 原项目: https://github.com/BoxiYu/LightAD
+- Issues: https://github.com/BoxiYu/LightAD/issues
+- 工具制作作者Email: boxiyu@link.cuhk.edu.cn
+- MCP项目：https://github.com/Plc912/LightAD-master.git
+- MCP封装作者Email:3522236586@qq.com
 
 基于 ICSE'24 论文 "Deep Learning or Classical Machine Learning? An Empirical Study on Log-Based Anomaly Detection" 实现，在主流日志数据集上达到 **SOTA 性能**。
 
